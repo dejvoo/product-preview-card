@@ -63,3 +63,15 @@ img {
     text-decoration: line-through;
 }
 
+.buy-button {
+    height: 55px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #3d8168;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
