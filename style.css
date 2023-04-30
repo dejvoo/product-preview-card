@@ -1,0 +1,65 @@
+@import url(reset.css);
+
+body {
+    background: hsl(30, 38%, 92%);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    min-height: 100vh;
+}
+
+img {  
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    gap: 25px;
+    padding: 40px;
+    width: 400px;
+    height: 600px;
+}
+
+.category {
+    font-size: 19px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.name {
+    font-size: 44px;
+    line-height: 44px;
+}
+
+.post-content {
+    font-size: 19px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.new-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.old-price {
+    font-size: 19px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
